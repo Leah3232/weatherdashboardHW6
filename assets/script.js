@@ -12,18 +12,6 @@ const apiKey = "966a86c8bd69d14a621d45a4cd70fed2";
 const rootURL = "https://api.openweathermap.org/";
 const countryCode = "US";
 
-// const liClass = "list-group-item rounded";
-// const tArray1 = ["Temp: ", "today.current.temp", "\u00B0F"];
-// const tArray2 = ["Temp: ", "today.temp.day", "\u00B0F"];
-// const wArray1 = ["Wind: ", "today.current.wind_speed", "MPH"];
-// const wArray2 = ["Wind: ", "today.wind_speed", "MPH"];
-// const hArray1 = ["Humidity: ", "today.current.humidity", "%"];
-// const hArray2 = ["Humidity: ", "today.humidity", "%"];
-// const uvArray = ["UV Index: ", "today.current.uvi", " "];
-
-// Begin Program
-startSearch();
-
 // Looks for past searches in localStorage
 function startSearch(){
   let pastHistory = localStorage.getItem("previousSearches");
@@ -197,13 +185,3 @@ function forecast5Day(wData){
   }
 }
 
-// function createList(thisDay, clName, thisArray){
-//   let today = thisDay;
-//   console.log(today);
-//   let listEl = document.createElement("li");   
-//   console.log(thisArray);
-//   listEl.textContent = thisArray[0] + thisArray[1] + thisArray[2] ;     
-//   listEl.className = clName;
-//   console.log(listEl);
-//   return listEl;
-// }
