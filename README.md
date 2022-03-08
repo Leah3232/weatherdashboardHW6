@@ -1,5 +1,4 @@
 # weatherdashboardHW6
-# Weather Dashboard
 
 ## About This Project
 
