@@ -20,7 +20,7 @@ Moment.js was used to provide the date for the website, using .unix to go to epo
 
 ## Contact
 
-Project Link: (git@github.com:Leah3232/weatherdashboardHW6.git)
+Project Link: (https://github.com/Leah3232/weatherdashboardHW6.git)
 
 ## License
 
